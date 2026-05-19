@@ -1,0 +1,8 @@
+# Page Replacement Lab — runtime + dev dependencies.
+# Python 3.10+ required (we use modern type-hint syntax).
+
+# Plotting
+matplotlib>=3.7
+
+# Tests
+pytest>=8.0
