@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Generated artifacts — recreate with `make run`.
+# We deliberately keep these out of git so reviewers see a clean
+# checkout and rebuild from source.
+traces/data/
+experiments/plots/
+
+# But keep the real-trace seed files (small, committed by hand).
+!traces/real/*.txt
+!traces/real/*.txt.gz
