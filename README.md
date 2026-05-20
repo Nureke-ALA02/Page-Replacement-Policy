@@ -201,12 +201,12 @@ deliverable for the *Computer Architecture & Operating Systems* course.
 
 | Member | Role |
 |--------|------|
-| {Name 1} | Harness, simulator core, trace loader |
-| {Name 2} | FIFO, LRU, OPT, and their tests |
-| {Name 3} | Clock, LFU, Aging, and their tests |
-| {Name 4} | ARC (the hardest one) |
-| {Name 5} | Synthetic trace generators + real-trace ingest |
-| {Name 6} | Experiments, plots, and presentation |
+| {Nurdaulet} | Harness, simulator core, trace loader |
+| {Sultan} | FIFO, LRU, OPT, and their tests |
+| {Zhanel} | Clock, LFU, Aging, and their tests |
+| {Alua} | ARC (the hardest one) |
+| {Altynbek} | Synthetic trace generators + real-trace ingest |
+| {Zhadyra} | Experiments, plots, and presentation |
 
 See `git log` and the `AI_USAGE.md` notes for individual contributions.
 
