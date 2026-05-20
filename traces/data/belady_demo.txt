@@ -1,0 +1,13 @@
+# classic 12-ref Belady's anomaly demo
+1
+2
+3
+4
+1
+2
+5
+1
+2
+3
+4
+5
