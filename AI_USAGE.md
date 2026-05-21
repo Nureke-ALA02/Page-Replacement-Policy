@@ -121,24 +121,24 @@ regression guard.
 > **Format:** name, what was generated/edited with AI, what was done
 > by hand. Update this section as we go.
 
-- **{Name 1}** — Used Claude to design `harness/simulator.py` CLI;
+- **{Nurdaulet}** — Used Claude to design `harness/simulator.py` CLI;
   wrote `harness/metrics.py` and `harness/trace_loader.py` by hand
   with Copilot completing boilerplate.
-- **{Name 2}** — FIFO and LRU initial drafts via Claude Code; the
+- **{Sultan}** — FIFO and LRU initial drafts via Claude Code; the
   Belady-anomaly tests written by hand to verify against textbook
   numbers. OPT prefix-index logic adapted from a Claude suggestion
   after profiling showed naive scan was the bottleneck.
-- **{Name 3}** — Clock written from scratch (the hand pointer needed
+- **{Zhanel}** — Clock written from scratch (the hand pointer needed
   edge-case attention Claude kept getting wrong); LFU and Aging via
   Claude Code with manual review of tiebreak logic.
-- **{Name 4}** — ARC. Three rounds of "implement, run tests, fix" with
+- **{Alua}** — ARC. Three rounds of "implement, run tests, fix" with
   Claude. The final code is rewritten with explicit comments mapping
   each `if`/`elif` branch to a case of Figure 4 in the paper so we can
   defend it on Q&A.
-- **{Name 5}** — Synthetic trace generators written by hand
+- **{Altynbek}** — Synthetic trace generators written by hand
   (one-screen each); used Claude to suggest realistic parameter
   ranges for the Zipfian and working-set workloads. Real traces
   collected with `valgrind --tool=lackey --trace-mem=yes` on
   `ls -lR /usr` and post-processed by a Python script Claude drafted.
-- **{Name 6}** — `experiments/` scripts and plotting via Claude;
+- **{Zhadyra}** — `experiments/` scripts and plotting via Claude;
   the choice of which plots to show on slides was a team discussion.
